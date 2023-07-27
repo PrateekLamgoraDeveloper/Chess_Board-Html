@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    border: 1px solid aquamarine;
+    opacity: 0.9;
+    border-radius: 25px;
+    height:900px;
+    width: 900px;
+    display: flex;
+    margin: auto;
+    /* flex-direction: row; */
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    background-color: aquamarine;
+    padding: 50px;
+}
+/* .chessBox{
+    padding: 10px;
+} */
+.chessBoxW{
+    background-color: white;
+    flex-direction: column;
+    flex: auto;
+
+}
+.chessBoxB{
+    background-color: black;
+    flex-direction: column;
+    flex: auto;
+
+}
+#main div {
+    width: 100px;
+    height: 100px;
+}
